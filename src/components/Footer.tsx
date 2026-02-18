@@ -22,8 +22,8 @@ export function Footer() {
               <h4 className="text-white font-semibold mb-3 text-sm">CITY Holder</h4>
               <ul className="space-y-2">
                 <li><a href="https://holder.city" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm hover:text-city-orange transition-colors">Website</a></li>
-                <li><a href="https://t.me/CITY_Holder" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm hover:text-city-orange transition-colors">Telegram Bot</a></li>
-                <li><a href="https://t.me/CITY_HolderChat" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm hover:text-city-orange transition-colors">Community</a></li>
+                <li><a href="https://t.me/CityHolder" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm hover:text-city-orange transition-colors">Telegram Bot</a></li>
+                <li><a href="https://t.me/CITY_Holder" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm hover:text-city-orange transition-colors">Community</a></li>
               </ul>
             </div>
             <div>
