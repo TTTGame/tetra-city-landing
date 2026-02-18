@@ -9,20 +9,20 @@ const steps = [
   },
   {
     number: '02',
-    title: 'Build & Earn',
-    description: 'Construct buildings, attract residents, and climb the leaderboard. All game transactions are processed on TetraChain L2.',
+    title: 'Build Your City',
+    description: 'Construct buildings, attract residents, and climb the leaderboard. The same gameplay you love, now with TetraChain-powered NFT features.',
     gradient: 'from-city-amber to-tetra-blue',
   },
   {
     number: '03',
-    title: 'Instant Settlements',
-    description: 'TetraChain\'s DAG-based mempool provides sub-second transaction finality. No waiting, no gas fees for players.',
+    title: 'Mint NFT Buildings',
+    description: 'Mint exclusive NFTs on TetraChain to unlock custom buildings. Unique designs that make your city stand out from the crowd.',
     gradient: 'from-tetra-blue to-tetra-cyan',
   },
   {
     number: '04',
-    title: 'Claim Rewards',
-    description: '$CITY tokens are distributed on-chain via TetraChain. Bridge to TON Mainnet anytime through the trustless bridge.',
+    title: 'Bridge & Trade',
+    description: 'Use the trustless bridge between TON Mainnet and TetraChain. Move your assets freely with cryptographic Merkle proofs.',
     gradient: 'from-tetra-cyan to-city-orange',
   },
 ]

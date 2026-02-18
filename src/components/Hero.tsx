@@ -41,9 +41,9 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Build-to-Earn meets next-gen Layer 2.
+          Mint NFT buildings, customize your city, powered by Layer 2.
           <br className="hidden md:block" />
-          Faster transactions, lower fees, seamless gameplay for{' '}
+          Faster transactions, seamless gameplay for{' '}
           <span className="text-white font-semibold">15M+ players</span>.
         </motion.p>
 
@@ -55,7 +55,7 @@ export function Hero() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
         >
           <a
-            href="https://t.me/CityHolder"
+            href="https://t.me/CITY_Holder"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative px-8 py-4 rounded-2xl bg-gradient-to-r from-city-orange to-city-amber text-white font-bold text-lg hover:shadow-xl hover:shadow-city-orange/25 transition-all duration-300 hover:scale-105"

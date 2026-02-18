@@ -21,20 +21,23 @@ const features = [
         <path d="M6 12h6v16H6zM13 6h6v22h-6zM20 9h6v19h-6z" stroke="#ffac3e" strokeWidth="1.5" fill="none"/>
       </svg>
     ),
-    title: 'Build-to-Earn',
-    description: 'Construct and upgrade buildings, attract residents, climb global leaderboards. Every action earns $CITY token rewards.',
+    title: 'City Building',
+    description: 'Construct and upgrade buildings, attract residents, and climb global leaderboards. Compete with players worldwide.',
     cardClass: 'hover:border-city-orange/30',
     iconBgClass: 'bg-city-orange/10',
   },
   {
     icon: (
       <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-        <circle cx="16" cy="16" r="12" stroke="#00d4ff" strokeWidth="1.5" fill="none"/>
-        <path d="M10 16l4 4 8-8" stroke="#00d4ff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        <rect x="4" y="4" width="24" height="24" rx="3" stroke="#00d4ff" strokeWidth="1.5" fill="none"/>
+        <path d="M10 22V14l4-4 4 4v8" stroke="#00d4ff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M14 22v-5" stroke="#00d4ff" strokeWidth="1.5" strokeLinecap="round"/>
+        <circle cx="21" cy="10" r="2" fill="#00d4ff" opacity="0.5"/>
+        <path d="M19 10l2 2 4-4" stroke="#00d4ff" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" opacity="0.8"/>
       </svg>
     ),
-    title: 'Zero Gas Fees',
-    description: 'Gameplay transactions are gasless for players. TetraChain\'s efficient architecture subsidizes micro-transactions seamlessly.',
+    title: 'NFT Buildings',
+    description: 'Mint exclusive NFTs on TetraChain and unlock unique custom buildings for your city. Stand out with one-of-a-kind architecture.',
     cardClass: 'hover:border-tetra-blue/30',
     iconBgClass: 'bg-tetra-blue/10',
   },
@@ -74,8 +77,8 @@ const features = [
         <circle cx="16" cy="16" r="4" fill="#ff8c00"/>
       </svg>
     ),
-    title: '$CITY Rewards',
-    description: 'Earn $CITY tokens through gameplay achievements. Token drops, league competitions, and building milestones — all on-chain.',
+    title: 'Custom Buildings',
+    description: 'Collect rare and legendary NFT buildings to make your city truly unique. Exclusive designs only available through TetraChain minting.',
     cardClass: 'hover:border-city-orange/30',
     iconBgClass: 'bg-city-orange/10',
   },
@@ -112,7 +115,7 @@ export function Features() {
             <span className="text-white"> Matters</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Combining the world's largest Build-to-Earn game with cutting-edge L2 technology.
+            Combining the world's largest city-building game with cutting-edge L2 technology.
           </p>
         </motion.div>
 

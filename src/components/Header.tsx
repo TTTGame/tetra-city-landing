@@ -37,7 +37,7 @@ export function Header() {
         </nav>
 
         <a
-          href="https://t.me/CityHolder"
+          href="https://t.me/CITY_Holder"
           target="_blank"
           rel="noopener noreferrer"
           className="px-5 py-2 rounded-full bg-gradient-to-r from-city-orange to-tetra-blue text-white text-sm font-semibold hover:shadow-lg hover:shadow-city-orange/20 transition-all duration-300 hover:scale-105"

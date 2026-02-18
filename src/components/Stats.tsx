@@ -71,11 +71,10 @@ const stats = [
     description: 'Sub-second transactions',
   },
   {
-    value: 0,
-    suffix: '',
-    label: 'Gas Fees',
-    description: 'Free for all players',
-    isZero: true,
+    value: 100,
+    suffix: '+',
+    label: 'NFT Buildings',
+    description: 'Unique custom designs',
   },
 ]
 
@@ -113,15 +112,11 @@ export function Stats() {
               className="relative p-6 md:p-8 rounded-2xl border border-dark-border bg-dark-card/50 backdrop-blur-sm text-center glow-combined"
             >
               <div className="text-3xl md:text-5xl font-black gradient-text-combined mb-2">
-                {stat.isZero ? (
-                  '$0'
-                ) : (
-                  <AnimatedCounter
-                    target={stat.value}
-                    suffix={stat.suffix}
-                    prefix={stat.prefix}
-                  />
-                )}
+                <AnimatedCounter
+                  target={stat.value}
+                  suffix={stat.suffix}
+                  prefix={stat.prefix}
+                />
               </div>
               <div className="text-white font-semibold mb-1">{stat.label}</div>
               <div className="text-sm text-gray-500">{stat.description}</div>

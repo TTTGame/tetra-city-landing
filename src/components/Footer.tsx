@@ -12,7 +12,7 @@ export function Footer() {
               <span className="font-bold text-white">CITY Holder &times; TetraChain</span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed">
-              The first Build-to-Earn game powered by next-generation L2 technology. Build your city, earn rewards, shape the future.
+              The first city-building game with NFT integration powered by next-generation L2 technology. Build your city, mint unique buildings, shape the future.
             </p>
           </div>
 
@@ -22,8 +22,8 @@ export function Footer() {
               <h4 className="text-white font-semibold mb-3 text-sm">CITY Holder</h4>
               <ul className="space-y-2">
                 <li><a href="https://holder.city" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm hover:text-city-orange transition-colors">Website</a></li>
-                <li><a href="https://t.me/CityHolder" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm hover:text-city-orange transition-colors">Telegram Bot</a></li>
-                <li><a href="https://t.me/CityHolderChat" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm hover:text-city-orange transition-colors">Community</a></li>
+                <li><a href="https://t.me/CITY_Holder" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm hover:text-city-orange transition-colors">Telegram Bot</a></li>
+                <li><a href="https://t.me/CITY_HolderChat" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm hover:text-city-orange transition-colors">Community</a></li>
               </ul>
             </div>
             <div>
@@ -41,18 +41,7 @@ export function Footer() {
             <h4 className="text-white font-semibold mb-3 text-sm">Follow Us</h4>
             <div className="flex items-center gap-3">
               <a
-                href="https://x.com/ArcticWhale_io"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-xl border border-dark-border bg-dark-surface flex items-center justify-center text-gray-500 hover:text-white hover:border-gray-600 transition-all"
-                aria-label="X / Twitter"
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-                </svg>
-              </a>
-              <a
-                href="https://t.me/CityHolder"
+                href="https://t.me/CITY_Holder"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-xl border border-dark-border bg-dark-surface flex items-center justify-center text-gray-500 hover:text-white hover:border-gray-600 transition-all"
